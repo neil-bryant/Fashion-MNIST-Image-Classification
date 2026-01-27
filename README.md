@@ -6,6 +6,12 @@
  It contains 60,000 images for training and 10,000 images for testing, with each image sized at 28×28 pixels.
  This dataset is commonly used to help train and test image classification models and is considered a more realistic alternative to the MNIST digit dataset.
 
+2. Why do we normalize image pixel values before training?
+
+Normalizing pixel values (usually from 0–255 to 0–1) helps the model train faster and more stably.
+It prevents large input values from dominating the learning process.
+Normalization also improves convergence and overall model performance.
+
 3. Why do we normalize image pixel values before training?
 
  We normalize image pixel values to make training easier and more efficient for the model.
